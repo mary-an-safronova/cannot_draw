@@ -1,0 +1,6 @@
+.header__subtitle {
+	@include font(normal, 400, 18px, 26px);
+	max-width: 450px;
+	width: 100%;
+	margin: 0;
+}

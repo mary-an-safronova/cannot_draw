@@ -1,0 +1,61 @@
+@import './vendor/normalize.css';
+@import './vendor/fonts.css';
+.page {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  margin: 0 auto;
+  width: 1440px;
+  background-color: #FFFFFF;
+  color: #111111;
+}
+
+.header {
+  background-color: #222222;
+  color: #FFFFFF;
+  margin: 10px auto 60px;
+  width: 98.61%;
+  height: 640px;
+  border-radius: 20px;
+}
+
+.header__flex-wrap {
+  display: flex;
+}
+
+.header__wrap {
+  margin: 30px 0 0 160px;
+}
+
+.header__title {
+  margin: 60px 0 28px 0;
+  max-width: 650px;
+  width: 100%;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 69px;
+}
+
+.header__subtitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  max-width: 450px;
+  width: 100%;
+  margin: 0;
+}
+
+.header__button {
+  border: none;
+  padding: 0;
+  color: #222222;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  width: 240px;
+  aspect-ratio: 1/0.225;
+  margin-top: 108px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}/*# sourceMappingURL=index.css.map */
