@@ -1,0 +1,11 @@
+.header__button {
+	border: none;
+	padding: 0;
+	color: $blackColor;
+	background-color: $whiteColor;
+	border-radius: 8px;
+	width: 240px;
+	aspect-ratio: 1 / 0.225;
+	margin-top: 108px;
+	@include font(normal, 600, 16px, 24px);
+}

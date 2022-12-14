@@ -1,0 +1,6 @@
+.header__title {
+	margin: 60px 0 28px 0;
+	max-width: 650px;
+	width: 100%;
+	@include font(normal, 700, 60px, 69px);
+}
