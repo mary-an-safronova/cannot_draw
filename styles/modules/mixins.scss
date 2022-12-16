@@ -5,7 +5,37 @@
 	line-height: $lineHeight;
 }
 
-// @mixin size($width, $height) {
-// 	width: $width;
-// 	height: $height;
-// }
+@mixin frame($margin, $padding, $border) {
+	margin: $margin;
+	padding: $padding;
+	border: $border;
+}
+
+@mixin form-field($width, $bacgroundColor, $borderRadius, $paddingTop, $paddingRight, $paddingBottom, $paddingLeft) {
+	width: $width;
+	background-color: $bacgroundColor;
+	border-radius: $borderRadius;
+	padding-top: $paddingTop;
+	padding-right: $paddingRight;
+	padding-bottom: $paddingBottom;
+	padding-left: $paddingLeft;
+}
+
+@mixin button($padding, $border, $borderRadius, $width, $backgroundColor, $textAlign, $color) {
+	padding: $padding;
+	border: $border;
+	border-radius: $borderRadius;
+	width: $width;
+	background-color: $backgroundColor;
+	text-align: $textAlign;
+	color: $color;
+}
+
+@mixin blackBlock($backgroundColor, $color, $width, $height, $borderRadius) {
+	background-color: $backgroundColor;
+	color: $color;
+	width: $width;
+	height: $height;
+	border-radius: $borderRadius;
+}
+

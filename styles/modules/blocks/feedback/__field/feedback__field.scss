@@ -1,0 +1,5 @@
+.feedback__field {
+	@include frame(0, 0, none);
+	display: flex;
+	flex-direction: column;
+}

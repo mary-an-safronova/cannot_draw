@@ -1,0 +1,6 @@
+.footer__subtitle {
+	@include font(normal, 400, 18px, 26px);
+	max-width: 540px;
+	width: 100%;
+	margin: 0;
+}

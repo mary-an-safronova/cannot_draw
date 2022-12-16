@@ -5,10 +5,46 @@
 @import './modules/mixins.scss';
 
 @import './modules/blocks/page/page.scss';
+
 @import './modules/blocks/header/header.scss';
 @import './modules/blocks/header/__flex-wrap/header__flex-wrap.scss';
 @import './modules/blocks/header/__wrap/header__wrap.scss';
 @import './modules/blocks/header/__title/header__title.scss';
 @import './modules/blocks/header/__subtitle/header__subtitle.scss';
 @import './modules/blocks/header/__button/header__button.scss';
+@import './modules/blocks/header/__image/header__image.scss';
+
+@import './modules/blocks/content/content.scss';
+
+@import './modules/blocks/benefits/benefits.scss';
+@import './modules/blocks/benefits/__container/benefits__container.scss';
+@import './modules/blocks/benefits/__text/benefits__text.scss';
+@import './modules/blocks/benefits/__title/benefits__title.scss';
+@import './modules/blocks/benefits/__desc/benefits__desc.scss';
+@import './modules/blocks/benefits/__desc/_position/benefits__desc_position_center.scss';
+
+@import './modules/blocks/desc/__text/desc__text.scss';
+
+@import './modules/blocks/preview/preview.scss';
+@import './modules/blocks/preview/__image/preview__image.scss';
+
+@import './modules/blocks/feedback/feedback.scss';
+@import './modules/blocks/feedback/__form/feedback__form.scss';
+@import './modules/blocks/feedback/__field/feedback__field.scss';
+@import './modules/blocks/feedback/__title/feedback__title.scss';
+@import './modules/blocks/feedback/__subtitle/feedback__subtitle.scss';
+@import './modules/blocks/feedback/__wrap/feedback__wrap.scss';
+@import './modules/blocks/feedback/__user-info/feedback__user-info.scss';
+@import './modules/blocks/feedback/__info-input/feedback__info-input.scss';
+@import './modules/blocks/feedback/__user-text/feedback__user-text.scss';
+@import './modules/blocks/feedback/__text-input/feedback__text-input.scss';
+@import './modules/blocks/feedback/__button/feedback__button.scss';
+
+@import './modules/blocks/footer/footer.scss';
+@import './modules/blocks/footer/__flex-wrap/footer__flex-wrap.scss';
+@import './modules/blocks/footer/__wrap/footer__wrap.scss';
+@import './modules/blocks/footer/__title/footer__title.scss';
+@import './modules/blocks/footer/__subtitle/footer__subtitle.scss';
+@import './modules/blocks/footer/__button/footer__button.scss';
+@import './modules/blocks/footer/__image/footer__image.scss';
 

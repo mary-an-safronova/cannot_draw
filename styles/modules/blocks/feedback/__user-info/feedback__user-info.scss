@@ -1,0 +1,9 @@
+.feedback__user-info {
+	@include form-field(47.96%, $whiteColor, 8px, 15px, 20px, 15px, 20px);
+	// width: 470px
+	margin-right: 40px;
+}
+
+.feedback__user-info:last-child {
+	margin-right: 0;
+}

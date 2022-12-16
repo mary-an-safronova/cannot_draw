@@ -1,0 +1,5 @@
+.desc__text {
+	margin: 120px 0 120px 0;
+	width: 100%;
+	@include font(normal, 600, 60px, 68px);
+}

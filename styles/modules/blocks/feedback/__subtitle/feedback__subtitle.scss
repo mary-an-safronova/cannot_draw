@@ -1,0 +1,6 @@
+.feedback__subtitle {
+	@include font(normal, 400, 16px, 24px);
+	text-align: center;
+	width: 45.5%;
+	margin: 20px auto 100px;
+}
