@@ -21,7 +21,7 @@
 				</p>
 				<button class="header__button" type="button">Подробнее</button>
 			</div>
-			<img class="header__image" src="./images/header-img.png" alt="Абстрактные линии на экране телефона">
+			<img class="header__image" src="./images/header-img.svg" alt="Абстрактные линии на экране телефона">
 		</div>
 	</header>
 	<main class="content">
@@ -35,14 +35,18 @@
 			<div class="benefits__container">
 				<p class="benefits__text">Ч/Б и Цвет</p>
 				<h2 class="benefits__title">Рисуйте в любом стиле</h2>
-				<p class="benefits__desc">Будь то карандашная каляка-маляка или цветное произведение, приложение поможет
+				<p class="benefits__desc benefits__desc_position_center">Будь то карандашная каляка-маляка или цветное
+					произведение, приложение поможет
 					в любой ситуации.</p>
 			</div>
 		</section>
+		<section class="desc">
+			<p class="desc__text">Чик-чирик и ваша каляка превращается в изумительное произведение искусства.</p>
+		</section>
 		<section class="preview">
-			<img class="preview__image" src="./images/preview1.png" alt="Портрет из черных линий на экране телефона">
-			<img class="preview__image" src="./images/preview2.png" alt="Портрет из черных линий на экране телефона">
-			<img class="preview__image" src="./images/preview3.png" alt="Портрет из черных линий на экране телефона">
+			<img class="preview__image" src="./images/preview1.svg" alt="Портрет из черных линий на экране телефона">
+			<img class="preview__image" src="./images/preview2.svg" alt="Портрет из черных линий на экране телефона">
+			<img class="preview__image" src="./images/preview3.svg" alt="Портрет из черных линий на экране телефона">
 		</section>
 		<section class="benefits">
 			<div class="benefits__container">
@@ -58,7 +62,7 @@
 			</div>
 		</section>
 		<section class="desc">
-			<p class="desc-text">Качайте приложение и улучшайте свои художества, а потом хвастайтесь ими!</p>
+			<p class="desc__text">Качайте приложение и улучшайте свои художества, а потом хвастайтесь ими!</p>
 		</section>
 		<section class="feedback">
 			<form class="feedback__form">
@@ -67,16 +71,16 @@
 					<p class="feedback__subtitle">Оставьте заявку и мы свяжемся с вами.</p>
 					<div class="feedback__wrap">
 						<label class="feedback__user-info" for="name">
-							<input class="feedback__user-name" type="text" id="name" name="name" placeholder="Ваше Имя"
-								value required>
+							<input class="feedback__info-input feedback__user-name" type="text" id="name" name="name"
+								placeholder="Ваше Имя" value required>
 						</label>
 						<label class="feedback__user-info" for="email">
-							<input class="feedback__user-email" type="text" id="email" name="email"
+							<input class="feedback__info-input feedback__user-email" type="text" id="email" name="email"
 								placeholder="Контактный Email" value required>
 						</label>
 					</div>
 					<label class="feedback__user-text" for="email">
-						<textarea class="feedback__text" type="text" id="feedback-text" name="feedback-text"
+						<textarea class="feedback__text-input" type="text" id="feedback-text" name="feedback-text"
 							placeholder="Сообщение" value required></textarea>
 					</label>
 					<button class="feedback__button" type="submit">Оставить заявку</button>
@@ -85,12 +89,15 @@
 		</section>
 	</main>
 	<footer class="footer">
-		<div class="footer__wrap">
-			<h1 class="footer__title">Не умеете рисовать? Не беда!</h1>
-			<p class="footer__subtitle">С помощью нашего приложения вы можете чиркануть каляку и получить шедевр.</p>
-			<button class="footer__button">Подробнее</button>
+		<div class="footer__flex-wrap">
+			<div class="footer__wrap">
+				<h2 class="footer__title">Хотите скачать приложение?</h2>
+				<p class="footer__subtitle">Качайте в ЭпСтор и ГуглПлэй.</p>
+				<button class="footer__button">Уже скоро!</button>
+			</div>
+			<img class="footer__image" src="./images/footer-img.svg"
+				alt="Рисунок на экране телефона: большой палец вверх">
 		</div>
-		<img class="footer__image" src="./images/footer-img.png" alt="Рисунок на экране телефона: большой палец вверх">
 	</footer>
 </body>
 

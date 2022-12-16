@@ -1,0 +1,10 @@
+.feedback__text-input {
+	@include frame(0, 0, none);
+	@include font(normal, 400, 16px, 24px);
+	resize: none;
+	height: 76.92%;
+}
+
+.feedback__text-input::placeholder {
+	color: $textGrayColor;
+}

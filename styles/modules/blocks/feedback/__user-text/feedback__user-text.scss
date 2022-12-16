@@ -1,0 +1,5 @@
+.feedback__user-text {
+	@include form-field(95.9%, $whiteColor, 8px, 15px, 20px, 15px, 20px);
+	height: 100px;
+	margin: 20px 0 30px 0;
+}

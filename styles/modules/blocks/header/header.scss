@@ -1,9 +1,15 @@
 .header {
-	background-color: $blackColor;
-	color: $whiteColor;
+	@include blackBlock($blackColor, $whiteColor, 98.61%, 640px, 20px);
 	margin: 10px auto 60px;
-	width: 98.61%;
-	// 1420px
-	height: 640px;
-	border-radius: 20px;
+	// width: 1420px
+	// height: 640px;
+}
+
+@media screen and (max-width: 768px) {
+	.header {
+		@include block-size(97.4%, 602px);
+		margin: 10px auto 70px;
+		// width: 1420px
+		// height: 640px;
+	}
 }
