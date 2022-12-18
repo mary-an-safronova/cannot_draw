@@ -19,9 +19,7 @@
 .feedback__info-input:-webkit-autofill,
 .feedback__info-input:-webkit-autofill:hover,
 .feedback__info-input:-webkit-autofill:focus {
-	outline: 1px solid #E4E4E4;
-	box-shadow: 0 0 0px 1000px #fff inset;
-	// background-color: $whiteColor;
+	box-shadow: 0 0 0px 1000px #FFF inset;
 }
 
 @media screen and (min-width: 1440px) {

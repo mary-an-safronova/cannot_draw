@@ -467,6 +467,7 @@
   padding: 15px 4.255%;
   width: 91.49%;
   border-radius: 8px;
+  background-color: #FFFFFF;
 }
 
 .feedback__info-input::-moz-placeholder {
@@ -491,8 +492,7 @@
 .feedback__info-input:-webkit-autofill,
 .feedback__info-input:-webkit-autofill:hover,
 .feedback__info-input:-webkit-autofill:focus {
-  border: none;
-  box-shadow: 0 0 0px 1000px #F8F8F8 inset;
+  box-shadow: 0 0 0px 1000px #FFF inset;
 }
 
 @media screen and (min-width: 1440px) {
@@ -571,11 +571,10 @@
   outline: 1px solid #E4E4E4;
 }
 
-.feedback__text-input:-webkit-autofill,
-.feedback__text-input:-webkit-autofill:hover,
-.feedback__text-input:-webkit-autofill:focus {
-  border: none;
-  box-shadow: 0 0 0px 1000px #F8F8F8 inset;
+.feedback__info-input:-webkit-autofill,
+.feedback__info-input:-webkit-autofill:hover,
+.feedback__info-input:-webkit-autofill:focus {
+  box-shadow: 0 0 0px 1000px #FFF inset;
 }
 
 @media screen and (max-width: 1024px) {
@@ -607,7 +606,8 @@
 }
 
 .feedback__button:hover {
-  opacity: 0.85;
+  background-color: rgba(34, 34, 34, 0.85);
+  color: #FFFFFF;
 }
 
 @media screen and (max-width: 1024px) {
@@ -912,7 +912,8 @@
 }
 
 .outer__button_place_footer:hover {
-  opacity: 0.93;
+  background-color: rgba(255, 255, 255, 0.93);
+  color: #222222;
 }
 
 @media screen and (max-width: 1024px) {
