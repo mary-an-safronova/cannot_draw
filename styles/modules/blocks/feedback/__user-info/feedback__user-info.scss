@@ -1,9 +1,34 @@
 .feedback__user-info {
-	@include form-field(47.96%, $whiteColor, 8px, 15px, 20px, 15px, 20px);
-	// width: 470px
-	margin-right: 40px;
+	@include form-field(32.64vw, $whiteColor, 8px);
+	margin-right: 2.77vw;
+	cursor: pointer;
 }
 
 .feedback__user-info:last-child {
 	margin-right: 0;
+}
+
+@media screen and (min-width: 1440px) {
+	.feedback__user-info {
+		margin-right: 40px;
+		width: 470px;
+	}
+}
+
+// 768px
+@media screen and (max-width: 1024px) {
+	.feedback__user-info {
+		flex-direction: column;
+		width: 61.2vw;
+		margin: 0 auto 20px;
+	}
+	.feedback__user-info:last-child {
+		margin: 0 auto 20px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.feedback__user-info {
+		width: 100%;
+	}
 }

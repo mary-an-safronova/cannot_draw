@@ -7,11 +7,6 @@
 @import './modules/blocks/page/page.scss';
 
 @import './modules/blocks/header/header.scss';
-@import './modules/blocks/header/__flex-wrap/header__flex-wrap.scss';
-@import './modules/blocks/header/__wrap/header__wrap.scss';
-@import './modules/blocks/header/__title/header__title.scss';
-@import './modules/blocks/header/__subtitle/header__subtitle.scss';
-@import './modules/blocks/header/__button/header__button.scss';
 @import './modules/blocks/header/__image/header__image.scss';
 
 @import './modules/blocks/content/content.scss';
@@ -22,6 +17,7 @@
 @import './modules/blocks/benefits/__title/benefits__title.scss';
 @import './modules/blocks/benefits/__desc/benefits__desc.scss';
 @import './modules/blocks/benefits/__desc/_position/benefits__desc_position_center.scss';
+@import './modules/blocks/benefits/__desc/_position/benefits__desc_position_evenly.scss';
 
 @import './modules/blocks/desc/__text/desc__text.scss';
 
@@ -41,10 +37,20 @@
 @import './modules/blocks/feedback/__button/feedback__button.scss';
 
 @import './modules/blocks/footer/footer.scss';
-@import './modules/blocks/footer/__flex-wrap/footer__flex-wrap.scss';
-@import './modules/blocks/footer/__wrap/footer__wrap.scss';
-@import './modules/blocks/footer/__title/footer__title.scss';
-@import './modules/blocks/footer/__subtitle/footer__subtitle.scss';
-@import './modules/blocks/footer/__button/footer__button.scss';
 @import './modules/blocks/footer/__image/footer__image.scss';
 
+@import './modules/blocks/outer/outer.scss';
+@import './modules/blocks/outer/__title/outer__title.scss';
+@import './modules/blocks/outer/__subtitle/outer__subtitle.scss';
+@import './modules/blocks/outer/__button/outer__button.scss';
+@import './modules/blocks/outer/_place/outer_place_footer.scss';
+@import './modules/blocks/outer/_place/outer_place_header.scss';
+@import './modules/blocks/outer/__wrap/_place/outer__wrap_place_header.scss';
+@import './modules/blocks/outer/__wrap/_place/outer__wrap_place_footer.scss';
+@import './modules/blocks/outer/__title/_place/outer__title_place_footer.scss';
+@import './modules/blocks/outer/__title/_place/outer__title_place_header.scss';
+@import './modules/blocks/outer/__subtitle/_place/outer__subtitle_place_footer.scss';
+@import './modules/blocks/outer/__subtitle/_place/outer__subtitle_place_header.scss';
+@import './modules/blocks/outer/__button/_hidden/outer__button_hidden.scss';
+@import './modules/blocks/outer/__button/_place/outer__button_place_footer.scss';
+@import './modules/blocks/outer/__button/_place/outer__button_place_header.scss';

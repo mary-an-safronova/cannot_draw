@@ -1,0 +1,29 @@
+.outer__button_place_footer {
+	@include button(0, none, 8px, 470px, $whiteColor, center, $blackColor);
+	aspect-ratio: 1 / 0.115;
+	margin-top: 174px;
+}
+
+.outer__button_place_footer:hover {
+	opacity: 0.93;
+}
+
+// 768px
+@media screen and (max-width: 1024px) {
+  .outer__button_place_footer {
+		width: 240px;
+		margin-top: 130px;
+		aspect-ratio: 1 / 0.2;
+		margin-bottom: 50px;
+  }
+}
+
+// 320px
+@media screen and (max-width: 600px) {
+  .outer__button_place_footer {
+		@include font(normal, 600, 12px, 24px);
+		@include button(0, none, 8px, 81.25vw, $whiteColor, center, $blackColor);
+		height: 44px;
+		margin: 95px auto 20px;
+  }
+}

@@ -2,4 +2,26 @@
 	@include frame(0, 0, none);
 	display: flex;
 	flex-direction: column;
+	width: 68.055vw;
+}
+
+@media screen and (min-width: 1440px) {
+	.feedback__field {
+		width: 980px;
+	}
+}
+
+// 768px
+@media screen and (max-width: 1024px) {
+	.feedback__field {
+		width: 65.104vw;
+		margin: 0 auto;
+	}
+}
+
+// 320px
+@media screen and (max-width: 600px) {
+	.feedback__field {
+		width: 100%;
+	}
 }

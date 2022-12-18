@@ -11,14 +11,10 @@
 	border: $border;
 }
 
-@mixin form-field($width, $bacgroundColor, $borderRadius, $paddingTop, $paddingRight, $paddingBottom, $paddingLeft) {
+@mixin form-field($width, $bacgroundColor, $borderRadius) {
 	width: $width;
 	background-color: $bacgroundColor;
 	border-radius: $borderRadius;
-	padding-top: $paddingTop;
-	padding-right: $paddingRight;
-	padding-bottom: $paddingBottom;
-	padding-left: $paddingLeft;
 }
 
 @mixin button($padding, $border, $borderRadius, $width, $backgroundColor, $textAlign, $color) {
@@ -39,3 +35,7 @@
 	border-radius: $borderRadius;
 }
 
+@mixin block-size($width, $height) {
+  width: $width;
+  height: $height;
+}

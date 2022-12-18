@@ -1,6 +1,0 @@
-.header__button {
-	@include font(normal, 600, 16px, 24px);
-	@include button(0, none, 8px, 240px, $whiteColor, center, $blackColor);
-	aspect-ratio: 1 / 0.225;
-	margin-top: 108px;
-}

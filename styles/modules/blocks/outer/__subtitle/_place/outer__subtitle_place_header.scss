@@ -1,0 +1,26 @@
+.outer__subtitle_place_header {
+	max-width: 450px;
+	opacity: 0.7;
+}
+
+// 768px
+@media screen and (max-width: 1024px) {
+  .outer__subtitle_place_header {
+		@include font(normal, 400, 15px, 20px);
+		width: 46.875vw;
+	}
+}
+
+@media screen and (max-width: 767px) {
+  .outer__subtitle_place_header {
+		width: 40vw;
+	}
+}
+
+// 320px
+@media screen and (max-width: 600px) {
+  .outer__subtitle_place_header {
+		@include font(normal, 400, 12px, 15px);
+		width: 81.25vw;
+	}
+}

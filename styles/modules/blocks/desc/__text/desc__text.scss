@@ -3,3 +3,21 @@
 	width: 100%;
 	@include font(normal, 600, 60px, 68px);
 }
+
+// 768px
+@media screen and (max-width: 1024px) {
+	.desc__text {
+		margin: 70px auto 70px;
+		width: 84.375vw;
+		@include font(normal, 600, 33px, 37px);
+	}
+}
+
+// 320px
+@media screen and (max-width: 600px) {
+	.desc__text {
+		margin: 94px auto 70px;
+		width: 81.25vw;
+		@include font(normal, 600, 26px, 31px);
+	}
+}

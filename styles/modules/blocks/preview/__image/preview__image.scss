@@ -1,8 +1,48 @@
 .preview__image {
-	width: 530px;
-	margin-left: -135px;
+	width: 35.417vw;
+	margin-left: -9.375vw;
 }
 
 .preview__image:first-child {
-	margin-left: -77px;
+	margin-left: -5.347vw;
+}
+
+@media screen and (min-width: 1440px) {
+  .preview__image {
+    width: 510px;
+		margin-left: -135px;
+  }
+	.preview__image:first-child {
+		margin-left: -77px;
+	}
+}
+
+// 768px
+@media screen and (max-width: 1024px) {
+  .preview__image {
+		width: 42.84vw;
+		aspect-ratio: 1 / 2.04;
+		margin-left: -11.72vw;
+		margin-top: -23px;
+  }
+	.preview__image:first-child {
+		margin-left: -6.51vw;
+	}
+}
+
+// 320px
+@media screen and (max-width: 600px) {
+  .preview__image {
+		display: none;
+  }
+	.preview__image:first-child {
+		display: block;
+		width: 118.4vw;
+		min-width: 379px;
+		aspect-ratio: 1 / 2.008;
+		margin: auto;
+		overflow-x: hidden;
+		margin-top: -36px;
+		margin-left: -12.5vw;
+	}
 }

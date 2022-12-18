@@ -1,0 +1,22 @@
+.outer__title_place_footer {
+	margin: 60px 0 20px 0;
+	max-width: 460px;
+	@include font(normal, 600, 32px, 38px);
+}
+
+// 768px
+@media screen and (max-width: 1024px) {
+  .outer__title_place_footer {
+		margin: 50px 0 20px 0;
+		width: 39.06vw;
+	}
+}
+
+// 320px
+@media screen and (max-width: 600px) {
+  .outer__title_place_footer {
+		@include font(normal, 700, 24px, 29px);
+		margin: 20px 0 14px;
+		min-width: 81.25vw;
+	}
+}

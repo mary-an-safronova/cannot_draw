@@ -1,5 +1,27 @@
 .feedback__user-text {
-	@include form-field(95.9%, $whiteColor, 8px, 15px, 20px, 15px, 20px);
-	height: 100px;
+	@include form-field(100%, $whiteColor, 8px);
+	height: 130px;
 	margin: 20px 0 30px 0;
+	cursor: pointer;
+}
+
+@media screen and (min-width: 1440px) {
+	.feedback__user-text {
+		width: 980px;
+	}
+}
+
+// 768px
+@media screen and (max-width: 1024px) {
+	.feedback__user-text {
+		width: 61.2vw;
+		margin: 0 auto 50px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.feedback__user-text {
+		width: 100%;
+		margin: 0 auto 50px;
+	}
 }

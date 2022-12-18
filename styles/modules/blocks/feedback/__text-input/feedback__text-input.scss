@@ -3,8 +3,40 @@
 	@include font(normal, 400, 16px, 24px);
 	resize: none;
 	height: 76.92%;
+	padding: 15px 2.128%;
+	width: 95.92%;
+	border-radius: 8px;
 }
 
 .feedback__text-input::placeholder {
-	color: $textGrayColor;
+	color: $textBlackColor;
+	opacity: 0.3;
+}
+
+.feedback__text-input:focus {
+	outline: 1px solid #E4E4E4;
+}
+
+.feedback__text-input:-webkit-autofill,
+.feedback__text-input:-webkit-autofill:hover,
+.feedback__text-input:-webkit-autofill:focus {
+	outline: 1px solid #E4E4E4;
+	box-shadow: 0 0 0px 1000px $whiteColor inset;
+	// background-color: $whiteColor;
+}
+
+// 768px
+@media screen and (max-width: 1024px) {
+	.feedback__text-input {
+		width: 91.49%;
+		padding: 15px 4.255%;
+	}
+}
+
+// 320px
+@media screen and (max-width: 600px) {
+  .feedback__text-input {
+		padding: 15px 6.25vw;
+    font-size: 12px;
+  }
 }

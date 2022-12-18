@@ -1,36 +1,37 @@
 <!doctype html>
-<html lang="en">
+<html lang="ru">
 
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport"
-		content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Can't draw</title>
 	<link rel="stylesheet" href="./styles/index.css">
 </head>
 
 <body class="page">
 	<header class="header">
-		<div class="header__flex-wrap">
-			<div class="header__wrap">
+		<div class="outer outer_place_header">
+			<div class="outer__wrap outer__wrap_place_header">
 				<img class="header__logo" src="./images/logo.svg" alt="Логотип приложения">
-				<h1 class="header__title">Не умеете рисовать? Не беда!</h1>
-				<p class="header__subtitle">С помощью нашего приложения вы можете
+				<h1 class="outer__title outer__title_place_header">Не умеете рисовать? Не&nbsp;беда!</h1>
+				<p class="outer__subtitle outer__subtitle_place_header">С помощью нашего приложения вы можете
 					чиркануть каляку и получить шедевр.
 				</p>
-				<button class="header__button" type="button">Подробнее</button>
+				<button class="outer__button outer__button_place_header" type="button">Подробнее</button>
 			</div>
 			<img class="header__image" src="./images/header-img.svg" alt="Абстрактные линии на экране телефона">
 		</div>
+		<button class="outer__button outer__button_hidden" type="button">Подробнее</button>
 	</header>
 	<main class="content">
 		<section class="benefits">
 			<div class="benefits__container">
 				<p class="benefits__text">AI</p>
 				<h2 class="benefits__title">Умный интелект приложения</h2>
-				<p class="benefits__desc">С помощью AI приложение анализирует картины мастеров и современных практиков
-					рисования, и достраивает картину за вас.</p>
+				<p class="benefits__desc">С помощью AI приложение анализирует картины мастеров и&nbsp;современных практиков
+					рисования, и&nbsp;достраивает картину за вас.</p>
 			</div>
 			<div class="benefits__container">
 				<p class="benefits__text">Ч/Б и Цвет</p>
@@ -41,7 +42,7 @@
 			</div>
 		</section>
 		<section class="desc">
-			<p class="desc__text">Чик-чирик и ваша каляка превращается в изумительное произведение искусства.</p>
+			<p class="desc__text">Чик-чирик и ваша каляка превращается в&nbsp;изумительное произведение искусства.</p>
 		</section>
 		<section class="preview">
 			<img class="preview__image" src="./images/preview1.svg" alt="Портрет из черных линий на экране телефона">
@@ -51,24 +52,24 @@
 		<section class="benefits">
 			<div class="benefits__container">
 				<p class="benefits__text">Быстро</p>
-				<h2 class="benefits__title">Проблем с рисованием — нет</h2>
+				<h2 class="benefits__title">Проблем с рисованием&nbsp;— нет</h2>
 				<p class="benefits__desc">Рисуйте в приложении доступными кистями: карандаш, маркер, линер, масляная
 					кисть и многие другие...</p>
 			</div>
 			<div class="benefits__container">
 				<p class="benefits__text">Просто</p>
 				<h2 class="benefits__title">Нарисовали, преобразовали, сохранили</h2>
-				<p class="benefits__desc">Раз, два, три, больше нечего тут рассказать.</p>
+				<p class="benefits__desc benefits__desc_position_evenly">Раз, два, три, больше нечего тут рассказать.</p>
 			</div>
 		</section>
 		<section class="desc">
-			<p class="desc__text">Качайте приложение и улучшайте свои художества, а потом хвастайтесь ими!</p>
+			<p class="desc__text">Качайте приложение и&nbsp;улучшайте свои художества, а&nbsp;потом хвастайтесь ими!</p>
 		</section>
 		<section class="feedback">
 			<form class="feedback__form">
 				<fieldset class="feedback__field">
 					<legend class="feedback__title">Хотите нам что-то посоветовать?</legend>
-					<p class="feedback__subtitle">Оставьте заявку и мы свяжемся с вами.</p>
+					<p class="feedback__subtitle">Оставьте заявку и мы свяжемся с&nbsp;вами.</p>
 					<div class="feedback__wrap">
 						<label class="feedback__user-info" for="name">
 							<input class="feedback__info-input feedback__user-name" type="text" id="name" name="name"
@@ -79,7 +80,7 @@
 								placeholder="Контактный Email" value required>
 						</label>
 					</div>
-					<label class="feedback__user-text" for="email">
+					<label class="feedback__user-text" for="feedback-text">
 						<textarea class="feedback__text-input" type="text" id="feedback-text" name="feedback-text"
 							placeholder="Сообщение" value required></textarea>
 					</label>
@@ -89,14 +90,13 @@
 		</section>
 	</main>
 	<footer class="footer">
-		<div class="footer__flex-wrap">
-			<div class="footer__wrap">
-				<h2 class="footer__title">Хотите скачать приложение?</h2>
-				<p class="footer__subtitle">Качайте в ЭпСтор и ГуглПлэй.</p>
-				<button class="footer__button">Уже скоро!</button>
+		<div class="outer outer_place_footer">
+			<div class="outer__wrap outer__wrap_place_footer">
+				<h2 class="outer__title outer__title_place_footer">Хотите&nbsp;скачать приложение?</h2>
+				<p class="outer__subtitle outer__subtitle_place_footer">Качайте&nbsp;в&nbsp;ЭпСтор&nbsp;и&nbsp;ГуглПлэй.</p>
+				<button class="outer__button outer__button_place_footer">Уже скоро!</button>
 			</div>
-			<img class="footer__image" src="./images/footer-img.svg"
-				alt="Рисунок на экране телефона: большой палец вверх">
+			<img class="footer__image" src="./images/footer-img.svg" alt="Рисунок на экране телефона: большой палец вверх">
 		</div>
 	</footer>
 </body>

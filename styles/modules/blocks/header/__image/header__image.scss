@@ -1,3 +1,32 @@
 .header__image {
 	margin-top: -10px;
 }
+
+// 768px
+@media screen and (max-width: 1024px) {
+  .header__image {
+    @include block-size(410px, 636px);
+		margin-top: 70px;
+		margin-left: -22px;
+		width: 380px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__image {
+    @include block-size(131.25vw, 656px);
+    margin-left: -10vw;
+		clip-path: inset(0 10px 0 0);
+  }
+}
+
+// 320px
+@media screen and (max-width: 600px) {
+  .header__image {
+    @include block-size(131.25vw, 636px);
+		margin-top: 5px;
+		margin-left: -18.75vw;
+		clip-path: inset(0 14.29% 10%);
+		overflow: hidden;
+  }
+}

@@ -4,3 +4,33 @@
 	aspect-ratio: 1 / 0.278;
 	align-self: flex-end;
 }
+
+.feedback__button:hover {
+	opacity: 0.85;
+}
+
+// 768px
+@media screen and (max-width: 1024px) {
+	.feedback__button {
+		font-size: 14px;
+		width: 61.2vw;
+		margin: auto;
+		max-height: 48px;
+		height: 100%;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.feedback__button {
+		width: 100%;
+	}
+}
+
+// 320px
+@media screen and (max-width: 600px) {
+	.feedback__button {
+		font-size: 12px;
+		max-height: 44px;
+		height: 100%;
+	}
+}

@@ -3,5 +3,32 @@
 	border-radius: 20px;
 	width: 37.5vw;
 	max-width: 540px;
+	width: 100%;
 	min-height: 308px;
+	margin-right: 20px;
+}
+
+.benefits__container:last-child {
+	margin-right: 0;
+}
+
+// 768px
+@media screen and (max-width: 1024px) {
+  .benefits__container {
+		min-height: 284px;
+		margin-right: 10px;
+		width: 45.44vw;
+	}
+}
+
+// 320px
+@media screen and (max-width: 600px) {
+  .benefits__container {
+		min-height: 284px;
+		width: 93.75vw;
+		margin: auto;
+	}
+	.benefits__container:last-child {
+		display: none;
+	}
 }
