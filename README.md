@@ -38,4 +38,4 @@ ___________________________
   * Слайды в нескольких блоках
 	___________________________
 
-[Ссылка на проект](https://mary-an-safronova.github.io/cannot_draw/)
+[Ссылка на проект](https://mary-an-safronova.github.io/cannot_draw)
