@@ -1,0 +1,9 @@
+// 320px
+@media screen and (max-width: 600px) {
+	.preview__slider {
+		display: flex;
+		width: 100%;
+		min-width: 0;
+		position: relative;
+	}
+}

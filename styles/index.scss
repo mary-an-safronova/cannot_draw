@@ -3,6 +3,7 @@
 @import './modules/variables.scss';
 @import './modules/functions.scss';
 @import './modules/mixins.scss';
+@import './vendor/slick/slick.scss';
 
 @import './modules/blocks/page/page.scss';
 
@@ -19,10 +20,19 @@
 @import './modules/blocks/benefits/__desc/_position/benefits__desc_position_center.scss';
 @import './modules/blocks/benefits/__desc/_position/benefits__desc_position_evenly.scss';
 
+@import './modules/blocks/benefits-bottom/benefits-bottom.scss';
+@import './modules/blocks/benefits-bottom/__item/benefits-bottom__item.scss';
+
+@import './modules/blocks/benefits-top/benefits-top.scss';
+@import './modules/blocks/benefits-top/__item/benefits-top__item.scss';
+
 @import './modules/blocks/desc/__text/desc__text.scss';
 
 @import './modules/blocks/preview/preview.scss';
 @import './modules/blocks/preview/__image/preview__image.scss';
+@import './modules/blocks/preview/__item/preview__item.scss';
+@import './modules/blocks/preview/__slider/preview__slider.scss';
+@import './modules/blocks/preview/__slider-item/preview__slider-item.scss';
 
 @import './modules/blocks/feedback/feedback.scss';
 @import './modules/blocks/feedback/__form/feedback__form.scss';

@@ -5,19 +5,22 @@
 	max-width: 540px;
 	width: 100%;
 	min-height: 308px;
-	margin-right: 20px;
+	display: block;
 }
 
-.benefits__container:last-child {
-	margin-right: 0;
+.benefits__container:first-child {
+	margin-right: 20px;
 }
 
 // 768px
 @media screen and (max-width: 1024px) {
   .benefits__container {
 		min-height: 284px;
+		margin-right: 0;
+		width: 49.22%;
+	}
+	.benefits__container:first-child {
 		margin-right: 10px;
-		width: 45.44vw;
 	}
 }
 
@@ -25,10 +28,7 @@
 @media screen and (max-width: 600px) {
   .benefits__container {
 		min-height: 284px;
-		width: 93.75vw;
+		width: 100%;
 		margin: auto;
-	}
-	.benefits__container:last-child {
-		display: none;
 	}
 }

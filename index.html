@@ -3,11 +3,11 @@
 
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport"
-		content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Can't draw</title>
 	<link rel="stylesheet" href="./styles/index.css">
+
 </head>
 
 <body class="page">
@@ -26,41 +26,53 @@
 		<button class="outer__button outer__button_hidden" type="button">Подробнее</button>
 	</header>
 	<main class="content">
-		<section class="benefits">
-			<div class="benefits__container">
+		<section class="benefits benefits-top benefits-top__slider">
+			<div class="benefits__container benefits-top__item">
 				<p class="benefits__text">AI</p>
 				<h2 class="benefits__title">Умный интелект приложения</h2>
-				<p class="benefits__desc">С помощью AI приложение анализирует картины мастеров и&nbsp;современных практиков
-					рисования, и&nbsp;достраивает картину за вас.</p>
+				<p class="benefits__desc">С помощью AI приложение анализирует картины мастеров и&nbsp;современных практиков&nbsp;рисования,
+					 и достраивает&nbsp;картину за вас.</p>
 			</div>
-			<div class="benefits__container">
-				<p class="benefits__text">Ч/Б и Цвет</p>
+			<div class="benefits__container benefits-top__item">
+				<p class="benefits__text">Ч/&nbsp;Б&nbsp;и&nbsp;Цвет</p>
 				<h2 class="benefits__title">Рисуйте в любом стиле</h2>
 				<p class="benefits__desc benefits__desc_position_center">Будь то карандашная каляка-маляка или цветное
 					произведение, приложение поможет
 					в любой ситуации.</p>
 			</div>
+			</div>
 		</section>
+
 		<section class="desc">
 			<p class="desc__text">Чик-чирик и ваша каляка превращается в&nbsp;изумительное произведение искусства.</p>
 		</section>
-		<section class="preview">
-			<img class="preview__image" src="./images/preview1.svg" alt="Портрет из черных линий на экране телефона">
-			<img class="preview__image" src="./images/preview2.svg" alt="Портрет из черных линий на экране телефона">
-			<img class="preview__image" src="./images/preview3.svg" alt="Портрет из черных линий на экране телефона">
+
+		<section class="preview preview__slider">
+			<div class="preview__item preview__slider-item">
+				<img class="preview__image" src="./images/preview1.png" alt="Портрет из черных линий на экране телефона">
+			</div>
+			<div class="preview__item preview__slider-item">
+				<img class="preview__image" src="./images/preview2.png" alt="Портрет из черных линий на экране телефона">
+			</div>
+			<div class="preview__item preview__slider-item">
+				<img class="preview__image" src="./images/preview3.png" alt="Портрет из черных линий на экране телефона">
+			</div>
 		</section>
-		<section class="benefits">
-			<div class="benefits__container">
+
+		<section class="benefits benefits-bottom benefits-bottom__slider">
+			<div class="benefits__container benefits-bottom__item">
 				<p class="benefits__text">Быстро</p>
 				<h2 class="benefits__title">Проблем с рисованием&nbsp;— нет</h2>
 				<p class="benefits__desc">Рисуйте в приложении доступными кистями: карандаш, маркер, линер, масляная
 					кисть и многие другие...</p>
 			</div>
-			<div class="benefits__container">
+			<div class="benefits__container benefits-bottom__item">
 				<p class="benefits__text">Просто</p>
 				<h2 class="benefits__title">Нарисовали, преобразовали, сохранили</h2>
 				<p class="benefits__desc benefits__desc_position_evenly">Раз, два, три, больше нечего тут рассказать.</p>
 			</div>
+		</section>
+
 		</section>
 		<section class="desc">
 			<p class="desc__text">Качайте приложение и&nbsp;улучшайте свои художества, а&nbsp;потом хвастайтесь ими!</p>
@@ -73,11 +85,11 @@
 					<div class="feedback__wrap">
 						<label class="feedback__user-info" for="name">
 							<input class="feedback__info-input feedback__user-name" type="text" id="name" name="name"
-								placeholder="Ваше Имя" value required>
+								placeholder="Ваше Имя" value required pattern="^[А-Яа-яЁё\s]+$" title="Введите данные на русском языке">
 						</label>
 						<label class="feedback__user-info" for="email">
 							<input class="feedback__info-input feedback__user-email" type="text" id="email" name="email"
-								placeholder="Контактный Email" value required>
+								placeholder="Контактный Email" value required pattern="\S+@[a-z]+.[a-z]+">
 						</label>
 					</div>
 					<label class="feedback__user-text" for="feedback-text">
@@ -99,7 +111,13 @@
 			<img class="footer__image" src="./images/footer-img.svg" alt="Рисунок на экране телефона: большой палец вверх">
 		</div>
 	</footer>
+
+	<script src="./scripts/jquery-3.6.3.min.js"></script> <!-- jquery -->
+	<script src="./scripts/slick.min.js"></script>
+	<script src="./scripts/slider.js"></script>
+
 	<script src="./scripts/feedback-form.js"></script>
+
 </body>
 
 </html>

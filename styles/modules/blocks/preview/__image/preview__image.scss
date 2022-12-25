@@ -1,48 +1,31 @@
 .preview__image {
-	width: 35.417vw;
-	margin-left: -9.375vw;
-}
-
-.preview__image:first-child {
-	margin-left: -5.347vw;
+	width: 35.42vw;
+	aspect-ratio: 1 / 1.704;
+	margin-top: -80px;
 }
 
 @media screen and (min-width: 1440px) {
   .preview__image {
-    width: 510px;
-		margin-left: -135px;
+    max-width: 510px;
+		width: 100%;
   }
-	.preview__image:first-child {
-		margin-left: -77px;
-	}
 }
 
 // 768px
 @media screen and (max-width: 1024px) {
   .preview__image {
-		width: 42.84vw;
-		aspect-ratio: 1 / 2.04;
-		margin-left: -11.72vw;
-		margin-top: -23px;
+		width: 43.5vw;
+		aspect-ratio: 1 / 1.7;
+		margin-left: -4vw;
+		margin-top: 20px;
   }
-	.preview__image:first-child {
-		margin-left: -6.51vw;
-	}
 }
 
 // 320px
 @media screen and (max-width: 600px) {
   .preview__image {
-		display: none;
+		width: 117.5vw;
+		aspect-ratio: 1 / 1.72;
+		margin: 20px -9.5vw 0;
   }
-	.preview__image:first-child {
-		display: block;
-		width: 118.4vw;
-		min-width: 379px;
-		aspect-ratio: 1 / 2.008;
-		margin: auto;
-		overflow-x: hidden;
-		margin-top: -36px;
-		margin-left: -12.5vw;
-	}
 }
