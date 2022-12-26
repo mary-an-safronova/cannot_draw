@@ -1,0 +1,12 @@
+/* Ограничивающая оболочка */
+.slick-list {
+	overflow: hidden;
+	height: 100%;
+}
+
+/* Лента слайдов */
+.slick-track{
+	display: flex;
+	overflow: hidden;
+	height: 100%;
+}

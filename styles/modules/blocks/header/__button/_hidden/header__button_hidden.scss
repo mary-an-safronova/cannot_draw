@@ -1,0 +1,14 @@
+.header__button_hidden {
+	display: none;
+}
+
+// 320px
+@media screen and (max-width: 600px) {
+  .header__button_hidden {
+		display: block;
+		@include font(normal, 600, 12px, 24px);
+		@include button(0, none, 8px, 260px, $whiteColor, center, $blackColor);
+		aspect-ratio: 1 / 0.169;
+		margin: -20px auto 20px;
+  }
+}

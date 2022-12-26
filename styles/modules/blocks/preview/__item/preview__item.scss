@@ -1,0 +1,41 @@
+.preview__item {
+	width: 35.42vw;
+	aspect-ratio: 1 / 2.132;
+}
+
+.preview__item:first-child {
+	margin: 0;
+}
+
+@media screen and (min-width: 1440px) {
+	.preview__item {
+    max-width: 510px;
+		width: 100%;
+		margin: 0 0 0 -135px;
+  }
+	.preview__item:first-child {
+		margin: 0;
+	}
+}
+
+// 768px
+@media screen and (max-width: 1024px) {
+	.preview__item {
+		width: 29.427vw;
+		aspect-ratio: 1 / 2.04;
+		margin: 0 0 0 1.95vw;
+  }
+	.preview__item:first-child {
+		margin: 0;
+	}
+}
+
+// 320px
+@media screen and (max-width: 600px) {
+	.preview__item {
+		width: 100vw;
+		aspect-ratio: 1 / 2.008;
+		min-width: 0;
+		margin: 0;
+	}
+}

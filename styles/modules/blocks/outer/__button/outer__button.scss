@@ -1,0 +1,15 @@
+.outer__button {
+	@include font(normal, 600, 16px, 24px);
+}
+
+.outer__button:hover {
+	background-color: rgba(255, 255, 255, 0.93);
+	color: $blackColor;
+}
+
+// 768px
+@media screen and (max-width: 1024px) {
+  .outer__button {
+		@include font(normal, 600, 14px, 24px);
+  }
+}

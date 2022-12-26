@@ -1,0 +1,12 @@
+// 320px
+@media screen and (max-width: 600px) {
+	.benefits-bottom__item {
+		overflow: hidden;
+		min-height: 284px;
+		height: 100%;
+		width: 100%;
+		margin: auto;
+		background-color: $grayColor;
+		border-radius: 20px;
+	}
+}

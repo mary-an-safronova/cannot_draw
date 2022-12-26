@@ -1,0 +1,17 @@
+.outer__wrap_place_footer {
+	margin: 0 0 0 160px;
+}
+
+// 768px
+@media screen and (max-width: 1024px) {
+  .outer__wrap_place_footer {
+    margin: 0 0 0 50px;
+  }
+}
+
+// 320
+@media screen and (max-width: 600px) {
+  .outer__wrap_place_footer {
+    margin: 0 0 0 6.67%;
+  }
+}

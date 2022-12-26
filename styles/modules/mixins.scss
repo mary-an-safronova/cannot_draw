@@ -1,0 +1,41 @@
+@mixin font($style, $weight, $size, $lineHeight) {
+	font-style: $style;
+	font-weight: $weight;
+	font-size: $size;
+	line-height: $lineHeight;
+}
+
+@mixin frame($margin, $padding, $border) {
+	margin: $margin;
+	padding: $padding;
+	border: $border;
+}
+
+@mixin form-field($width, $bacgroundColor, $borderRadius) {
+	width: $width;
+	background-color: $bacgroundColor;
+	border-radius: $borderRadius;
+}
+
+@mixin button($padding, $border, $borderRadius, $width, $backgroundColor, $textAlign, $color) {
+	padding: $padding;
+	border: $border;
+	border-radius: $borderRadius;
+	width: $width;
+	background-color: $backgroundColor;
+	text-align: $textAlign;
+	color: $color;
+}
+
+@mixin blackBlock($backgroundColor, $color, $width, $height, $borderRadius) {
+	background-color: $backgroundColor;
+	color: $color;
+	width: $width;
+	height: $height;
+	border-radius: $borderRadius;
+}
+
+@mixin block-size($width, $height) {
+  width: $width;
+  height: $height;
+}

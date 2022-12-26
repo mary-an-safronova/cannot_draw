@@ -1,0 +1,9 @@
+.outer_place_footer {
+	height: 100%;
+}
+
+@media screen and (max-width: 1280px) {
+  .outer_place_footer {
+    justify-content: space-between;
+  }
+}

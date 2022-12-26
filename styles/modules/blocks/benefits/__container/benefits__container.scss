@@ -1,0 +1,34 @@
+.benefits__container {
+	background-color: $grayColor;
+	border-radius: 20px;
+	width: 37.5vw;
+	max-width: 540px;
+	width: 100%;
+	min-height: 308px;
+	display: block;
+}
+
+.benefits__container:first-child {
+	margin-right: 20px;
+}
+
+// 768px
+@media screen and (max-width: 1024px) {
+  .benefits__container {
+		min-height: 284px;
+		margin-right: 0;
+		width: 49.22%;
+	}
+	.benefits__container:first-child {
+		margin-right: 10px;
+	}
+}
+
+// 320px
+@media screen and (max-width: 600px) {
+  .benefits__container {
+		min-height: 284px;
+		width: 100%;
+		margin: auto;
+	}
+}

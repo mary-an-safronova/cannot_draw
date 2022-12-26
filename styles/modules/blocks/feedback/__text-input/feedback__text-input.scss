@@ -1,0 +1,35 @@
+.feedback__text-input {
+	@include frame(0, 0, none);
+	@include font(normal, 400, 16px, 24px);
+	resize: none;
+	height: 76.92%;
+	padding: 15px 2.128%;
+	width: 95.92%;
+	border-radius: 8px;
+}
+
+.feedback__text-input::placeholder {
+	color: $textBlackColor;
+	opacity: 0.3;
+}
+
+.feedback__text-input:focus {
+	outline: 1px solid #E4E4E4;
+}
+
+// 768px
+@media screen and (max-width: 1024px) {
+	.feedback__text-input {
+		width: 91.49%;
+		padding: 15px 4.255%;
+	}
+}
+
+// 320px
+@media screen and (max-width: 600px) {
+  .feedback__text-input {
+		width: 84.62%;
+		padding: 15px 20px;
+    font-size: 12px;
+  }
+}

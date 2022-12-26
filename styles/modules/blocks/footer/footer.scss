@@ -1,0 +1,26 @@
+.footer {
+	@include blackBlock($blackColor, $whiteColor, 98.61%, 470px, 20px);
+	margin: 120px auto 10px;
+}
+
+@media screen and (min-width: 1440px) {
+  .footer {
+    width: 1420px;
+  }
+}
+
+// 768px
+@media screen and (max-width: 1024px) {
+  .footer {
+    @include block-size(97.4vw, 400px);
+    margin: 70px auto 10px;
+  }
+}
+
+// 320px
+@media screen and (max-width: 600px) {
+  .footer {
+    @include block-size(93.75vw, 266px);
+    margin: 70px auto 10px;
+  }
+}
