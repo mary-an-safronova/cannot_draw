@@ -2,5 +2,6 @@
 @media screen and (max-width: 600px) {
   .outer_place_header {
     flex-direction: column;
+		overflow-x: hidden;
   }
 }

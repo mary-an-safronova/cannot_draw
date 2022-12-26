@@ -17,12 +17,6 @@
 	outline: 1px solid #E4E4E4;
 }
 
-.feedback__info-input:-webkit-autofill,
-.feedback__info-input:-webkit-autofill:hover,
-.feedback__info-input:-webkit-autofill:focus {
-	box-shadow: 0 0 0px 1000px #FFF inset;
-}
-
 // 768px
 @media screen and (max-width: 1024px) {
 	.feedback__text-input {

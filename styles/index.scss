@@ -9,6 +9,8 @@
 
 @import './modules/blocks/header/header.scss';
 @import './modules/blocks/header/__image/header__image.scss';
+@import './modules/blocks/header/__button/header__button.scss';
+@import './modules/blocks/header/__button/_hidden/header__button_hidden.scss';
 
 @import './modules/blocks/content/content.scss';
 
@@ -31,8 +33,9 @@
 @import './modules/blocks/preview/preview.scss';
 @import './modules/blocks/preview/__image/preview__image.scss';
 @import './modules/blocks/preview/__item/preview__item.scss';
-@import './modules/blocks/preview/__slider/preview__slider.scss';
-@import './modules/blocks/preview/__slider-item/preview__slider-item.scss';
+
+@import './modules/blocks/preview-slider/preview-slider.scss';
+@import './modules/blocks/preview-slider/__item/preview-slider__item.scss';
 
 @import './modules/blocks/feedback/feedback.scss';
 @import './modules/blocks/feedback/__form/feedback__form.scss';
@@ -61,6 +64,5 @@
 @import './modules/blocks/outer/__title/_place/outer__title_place_header.scss';
 @import './modules/blocks/outer/__subtitle/_place/outer__subtitle_place_footer.scss';
 @import './modules/blocks/outer/__subtitle/_place/outer__subtitle_place_header.scss';
-@import './modules/blocks/outer/__button/_hidden/outer__button_hidden.scss';
 @import './modules/blocks/outer/__button/_place/outer__button_place_footer.scss';
 @import './modules/blocks/outer/__button/_place/outer__button_place_header.scss';

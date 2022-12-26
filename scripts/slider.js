@@ -1,6 +1,6 @@
 $(window).on('load resize', function () {
-	if ($(window).width() < 600) {
-		$('.preview__slider:not(.slick-initialized)').slick({
+	if ($(window).width() < 601) {
+		$('.preview-slider:not(.slick-initialized)').slick({
 			arrows: false,
 			dots: true,
 			adaptiveHeight: true,
@@ -23,7 +23,7 @@ $(window).on('load resize', function () {
 			centerMode: false,
 			variableWidth: false
 		});
-		$('.benefits-top__slider:not(.slick-initialized)').slick({
+		$('.benefits-top:not(.slick-initialized)').slick({
 			arrows: false,
 			dots: true,
 			adaptiveHeight: true,
@@ -46,7 +46,7 @@ $(window).on('load resize', function () {
 			centerMode: false,
 			variableWidth: false
 	});
-	$('.benefits-bottom__slider:not(.slick-initialized)').slick({
+	$('.benefits-bottom:not(.slick-initialized)').slick({
 			arrows: false,
 			dots: true,
 			adaptiveHeight: true,
@@ -70,8 +70,8 @@ $(window).on('load resize', function () {
 			variableWidth: false
 	});
 	} else {
-		$(".preview__slider.slick-initialized").slick("unslick");
-		$(".benefits-top__slider.slick-initialized").slick("unslick");
-		$(".benefits-bottom__slider.slick-initialized").slick("unslick");
+		$(".preview-slider.slick-initialized").slick("unslick");
+		$(".benefits-top.slick-initialized").slick("unslick");
+		$(".benefits-bottom.slick-initialized").slick("unslick");
 	}
 });

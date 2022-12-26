@@ -1,6 +1,7 @@
 .feedback__info-input {
-	@include frame(0, 0, none);
 	@include font(normal, 400, 16px, 24px);
+	margin: 0;
+	border: none;
 	padding: 15px 4.255%;
 	width: 91.49%;
 	border-radius: 8px;
