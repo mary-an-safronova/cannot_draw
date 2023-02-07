@@ -1,0 +1,10 @@
+.benefits__desc_position_center {
+	padding-top: 38px;
+}
+
+// 768px
+@media screen and (max-width: 1024px) {
+  .benefits__desc_position_center {
+		padding-top: 0;
+	}
+}

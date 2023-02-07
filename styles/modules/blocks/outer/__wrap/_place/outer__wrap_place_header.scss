@@ -1,0 +1,23 @@
+.outer__wrap_place_header {
+	margin: 30px 0 0 11.27%;
+}
+
+@media screen and (min-width: 1440px) {
+  .outer__wrap_place_header {
+    margin: 30px 0 0 160px;
+  }
+}
+
+// 768px
+@media screen and (max-width: 1024px) {
+  .outer__wrap_place_header {
+    margin: 30px 0 0 6.68%;
+  }
+}
+
+// 320px
+@media screen and (max-width: 600px) {
+  .outer__wrap_place_header {
+    margin: 20px 0 0 6.67%;
+  }
+}

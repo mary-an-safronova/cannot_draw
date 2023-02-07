@@ -1,0 +1,35 @@
+.footer__image {
+	margin-top: -105px;
+	width: 471px;
+	margin-left: 179px;
+	overflow-x: hidden;
+}
+
+@media screen and (max-width: 1280px) {
+  .footer__image {
+		margin-left: -1px;
+  }
+}
+
+// 768px
+@media screen and (max-width: 1024px) {
+  .footer__image {
+		@include block-size(380px, 531px);
+		margin-top: -125px;
+		margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__image {
+		@include block-size(400px, 531px);
+		margin-left: -50px;
+  }
+}
+
+// 320px
+@media screen and (max-width: 600px) {
+  .footer__image {
+		display: none;
+  }
+}

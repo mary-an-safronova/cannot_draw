@@ -1,0 +1,14 @@
+.benefits {
+	display: flex;
+	justify-content: center;
+	width: 92.1875%;
+	position: relative;
+	margin: auto;
+}
+
+// 320px
+@media screen and (max-width: 600px) {
+  .benefits {
+		width: 100%;
+  }
+}

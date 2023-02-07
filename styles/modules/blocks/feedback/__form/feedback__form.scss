@@ -1,0 +1,31 @@
+.feedback__form {
+	margin: 0;
+	border: none;
+	padding: 60px 4.167vw;
+}
+
+@media screen and (min-width: 1440px) {
+	.feedback__form {
+		padding: 60px 60px;
+	}
+}
+
+// 768px
+@media screen and (max-width: 1024px) {
+	.feedback__form {
+		padding: 30px 104px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.feedback__form {
+		padding: 30px 13.56vw;
+	}
+}
+
+// 320px
+@media screen and (max-width: 600px) {
+	.feedback__form {
+		padding: 20px;
+	}
+}

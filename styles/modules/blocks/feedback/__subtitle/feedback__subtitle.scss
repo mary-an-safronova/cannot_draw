@@ -1,0 +1,29 @@
+.feedback__subtitle {
+	@include font(normal, 400, 16px, 24px);
+	text-align: center;
+	width: 45.5%;
+	margin: 20px auto 100px;
+	opacity: 0.6;
+}
+
+@media screen and (min-width: 1440px) {
+	.feedback__subtitle {
+		width: 500px;
+	}
+}
+
+// 768px
+@media screen and (max-width: 1024px) {
+	.feedback__subtitle {
+		@include font(normal, 400, 15px, 20px);
+		width: 100%;
+		margin-top: 24px;
+	}
+}
+
+// 320px
+@media screen and (max-width: 600px) {
+	.feedback__subtitle {
+		margin: 20px auto 80px;
+	}
+}
